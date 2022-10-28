@@ -9,6 +9,7 @@ export default class extends BaseSchema {
       table.integer("Custos_Essenciais", 10000).notNullable();
       table.integer("Custos_Pessoais", 10000).notNullable();
       table.integer("Reserva_Financeiras", 10000).notNullable();
+      table.integer("Rendimento_liquido", 10000).notNullable();
       /**
        * Uses timestamptz for PostgreSQL and DATETIME2 for MSSQL
        */

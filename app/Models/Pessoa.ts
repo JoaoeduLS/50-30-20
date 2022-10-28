@@ -1,22 +1,21 @@
-
-import { BaseModel, column } from '@ioc:Adonis/Lucid/Orm'
+import { BaseModel, column } from "@ioc:Adonis/Lucid/Orm";
 
 export default class Pessoa extends BaseModel {
   @column({ isPrimary: true })
-  public id: number
+  public id: number;
 
   @column()
-  public nome:string
+  public nome: string;
 
   @column()
-  public email:string
+  public email: string;
 
   @column()
-  public cpf:number
+  public cpf: number;
 
   @column()
-  public telefone:number
+  public telefone: number;
 
   @column()
-  public rendimento_liquido:number
+  public rendimento_liquido: number;
 }

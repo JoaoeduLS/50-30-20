@@ -8,9 +8,9 @@ export default class extends BaseSchema {
       table.increments("id");
       table.string("nome", 100).notNullable();
       table.string("email", 100).notNullable();
-      table.integer("cpf", 11).notNullable();
-      table.integer("telefone", 14).notNullable();
-      table.integer("rendimento_liquido", 100).notNullable();
+      table.integer("cpf").notNullable();
+      table.integer("telefone").notNullable();
+      table.integer("rendimento_liquido").notNullable();
       /**
        * Uses timestamptz for PostgreSQL and DATETIME2 for MSSQL
        */

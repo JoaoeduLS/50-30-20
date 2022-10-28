@@ -12,4 +12,7 @@ export default class DistriOrcamento extends BaseModel {
 
   @column()
   public Reserva_Financeiras: number;
+
+  @column()
+  public RendimentoLiquido: number;
 }
