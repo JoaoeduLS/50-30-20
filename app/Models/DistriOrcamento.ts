@@ -5,14 +5,14 @@ export default class DistriOrcamento extends BaseModel {
   public id: number;
 
   @column()
-  public Custos_Essenciais: number;
+  public custos_essenciais: number;
 
   @column()
-  public Custos_Pessoais: number;
+  public custos_pessoais: number;
 
   @column()
-  public Reserva_Financeiras: number;
+  public reserva_financeiras: number;
 
   @column()
-  public RendimentoLiquido: number;
+  public rendimento_liquido: number;
 }
